@@ -1,41 +1,32 @@
 'use strict';
 
-let num = 20;
+// let str = 'Test';
+// const arr = [1, 2, 4];
 
-function showFirstMessage(text) {
-  console.log(text);
-  let num = 10;
-  console.log(num);
-}
+// console.log(str.length);
+// console.log(arr.length);
 
-showFirstMessage('Message!');
-console.log(num);
+// console.log(str);
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
 
-function calc(a, b) {
-  return a + b;
-}
+// const fruit = 'Some fruit';
 
-console.log(calc(5, 8));
-console.log(calc(8, 8));
-console.log(calc(10, 8));
+// console.log(fruit.indexOf('fr'));
 
-function ret() {
-  let num = 50;
-  return num;
-}
+// const logg = 'Hello world!!!';
 
-const anotherNum = ret();
-console.log(ret());
-console.log(anotherNum);
+// console.log(logg.slice(6));
 
-const logger = function () {
-  console.log('Hello');
-};
+// console.log(logg.slice(6, 11));
 
-logger();
+// console.log(logg.substring(6, 11));
 
-const calcArrow = (a, b) => a + b;
+// console.log(logg.substr(6, 5));
 
-console.log(calcArrow(5, 10));
-console.log(calcArrow(8, 10));
-console.log(calcArrow(10, 10));
+// const num = 12.2;
+// console.log(Math.round(num));
+
+// const test = "12.2px";
+// console.log(parseInt(test));
+// console.log(parseFloat(test));
