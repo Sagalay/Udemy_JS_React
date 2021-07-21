@@ -1,23 +1,45 @@
 'use strict';
 
-function hello() {
-  console.log('Hello World');
-  debugger;
-}
+// 1)
+// console.log(typeof String(null));
+// console.log(String(null));
+// console.log(null);
+// console.log(typeof String(4));
 
-hello();
+// 2)
+// console.log(typeof (null + ''));
 
-function hi() {
-  console.log('Say hi!');
-}
+// const num = 5;
 
-hi();
+// console.log('https://vk.com/catalog/' + num);
 
-const arr = [1, 14, 4, 30, 54],
-  sorted = arr.sort(compareNum);
+// const fontSize = 36 + 'px';
 
-function compareNum(a, b) {
-  return a - b;
-}
+// console.log(fontSize);
 
-console.log(sorted);
+// 3)
+// console.log(typeof Number('4'));
+// console.log(typeof +'4');
+// console.log(typeof parseInt('15px', 10));
+
+// 4)
+
+// to boolean
+
+// 0, '', null, undefined, NaN;
+
+// let switcher = null;
+
+// if (switcher) {
+//   console.log('Working...');
+// }
+
+// switcher = 1;
+
+// if (switcher) {
+//   console.log('Working...');
+// }
+
+// console.log(typeof Boolean('4'));
+
+// console.log(typeof Boolean(!!'qwerty'));
