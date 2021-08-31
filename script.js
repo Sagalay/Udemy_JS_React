@@ -1,45 +1,25 @@
 'use strict';
 
-// 1)
-// console.log(typeof String(null));
-// console.log(String(null));
-// console.log(null);
-// console.log(typeof String(4));
+// Какое будет выведено значение: let x = 5; alert( x++ ); ?
 
-// 2)
-// console.log(typeof (null + ''));
+// Чему равно такое выражение: [ ] + false - null + true ?
 
-// const num = 5;
+// Что выведет этот код: let y = 1; let x = y = 2; alert(x); ?
 
-// console.log('https://vk.com/catalog/' + num);
+// Чему равна сумма [ ] + 1 + 2?
 
-// const fontSize = 36 + 'px';
+// Что выведет этот код: alert( "1"[0] )?
 
-// console.log(fontSize);
+// Чему равно 2 && 1 && null && 0 && undefined ?
 
-// 3)
-// console.log(typeof Number('4'));
-// console.log(typeof +'4');
-// console.log(typeof parseInt('15px', 10));
+// Есть ли разница между выражениями? !!( a && b ) и (a && b)?
 
-// 4)
+// Что выведет этот код: alert( null || 2 && 3 || 4 ); ?
 
-// to boolean
+// a = [1, 2, 3]; b = [1, 2, 3]; Правда ли что a == b ?
 
-// 0, '', null, undefined, NaN;
+// Что выведет этот код: alert( +"Infinity" ); ?
 
-// let switcher = null;
+// Верно ли сравнение: "Ёжик" > "яблоко"?
 
-// if (switcher) {
-//   console.log('Working...');
-// }
-
-// switcher = 1;
-
-// if (switcher) {
-//   console.log('Working...');
-// }
-
-// console.log(typeof Boolean('4'));
-
-// console.log(typeof Boolean(!!'qwerty'));
+// Чему равно 0 || "" || 2 || undefined || true || falsе ?

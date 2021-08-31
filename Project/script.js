@@ -47,14 +47,14 @@ const personalMovieDB = {
     }
   },
   writeYourGenres() {
-    for (let i = 0; i < 3; i++) {
-      let genre = prompt(`Ваш любимый жанр под номером ${i + 1}`);
+    for (let i = 1; i <= 3; i++) {
+      let genre = prompt(`Ваш любимый жанр под номером ${i}`);
 
       if (genre === '' || genre === null) {
         console.log('Вы ввели некорректные данные или не ввели их вовсе');
         i--;
       } else {
-        personalMovieDB.genres[i] = genre;
+        personalMovieDB.genres[i - 1] = genre;
       }
     }
     personalMovieDB.genres.forEach((item, i) => {
